@@ -63,6 +63,36 @@ video {
   outline: 0;
 }
 
+
+.float{
+  position:fixed;
+  width:150px;
+  height:150px;
+  bottom:40px;
+  left:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+z-index:100;
+}
+
+.float img {
+width: 150px;
+height: 150px;
+border: 2px solid #25d366;
+border-radius: 100%;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+padding: 5px;
+background: #fff;
+}
+
+.my-float{
+  margin-top:16px;
+}
+
 img {
   max-width: 100%;
 }
